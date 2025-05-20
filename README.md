@@ -1,11 +1,11 @@
-<H3>ENTER YOUR NAME: RAKSHITHA K</H3>
-<H3>ENTER YOUR REGISTER NO:212223110039 </H3>
-<H3>EX. NO.6</H3>
-<H3>DATE:</H3>
-<H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
-<H3>Aim</H3>: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
- <BR>
-<h3>Algorithm:</h3>
+## NAME: RAKSHITHA K
+## REGISTER NO:212223110039 
+## EX. NO.6
+## DATE:
+## Implementation of Semantic ANalysis
+## Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
+ 
+## Algorithm:
 Step 1: Import the nltk library.<br>
 Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.<br>
 Step 3:Accept user input for the text.<br>
@@ -16,7 +16,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
-<H3>Program:</H3>
+## Program:
 ~~~
 import nltk
 #import wordnet
@@ -45,11 +45,11 @@ print ( "Synonyms : " ,set (synonyms) )
 print ( "Antonyms : " ,set(antonyms) )
 ~~~
 
-<H3>Output</H3>
+## Output
 ![image](https://github.com/user-attachments/assets/5f36cf8f-a433-4fc2-9e34-5118a4334563)
 ![image](https://github.com/user-attachments/assets/868d59ac-92c5-43c3-a940-596601abf2dd)
 ![image](https://github.com/user-attachments/assets/69129725-50e1-4af0-8441-06210d78ea73)
 
 
-<H3>Result:</H3>
+## Result:
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
